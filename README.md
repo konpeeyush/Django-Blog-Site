@@ -113,7 +113,9 @@ http://127.0.0.1:8000/admin/App/post/
    - pip install -r requirements.txt
 4. Run migrations
    -python manage.py migrate
-5. Start the development server
+5. Create Super user
+   - python manage.py createsuperuser
+6. Start the development server
    - python manage.py runserver
 
 
